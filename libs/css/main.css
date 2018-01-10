@@ -32,6 +32,10 @@ body {
     background-color: rgba(255, 255, 255, .1);
 }
 
+.subheading {
+    color: #999999;
+}
+
 .uppercase {
     font-size: 1.37rem;
     font-family: bebas;
