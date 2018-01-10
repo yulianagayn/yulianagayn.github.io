@@ -31,11 +31,14 @@
 
     .nav-item {
         &.active {
-            background-color: #b1dfbb;
+            background-color: transparent;
+            .nav-link {
+                color: #ffffff;
+            }
         }
 
         .nav-link {
-            color: #ffffff;
+            color: #999999;
             text-transform: uppercase;
             font-size: 1.5rem;
         }
