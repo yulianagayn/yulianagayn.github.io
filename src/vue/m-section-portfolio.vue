@@ -23,7 +23,7 @@
             return {
                 path: '/images/gallery/',
                 images: [
-                    'pb-portall', 'pb-p1', 'pb-p2', 'pb-web', 'pb-p3', 'pb-rup', 'rso', 'artic'
+                    'pb-portall', 'pb-web', 'pb-p1', 'pb-p2', 'pb-p3', 'pb-rup', 'rso', 'artic'
                 ]
             }
         },
