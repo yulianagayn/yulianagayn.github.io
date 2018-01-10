@@ -1,10 +1,10 @@
 <template>
     <section id="skills" class="d-flex">
         <div class="my-auto p-5 black">
-            <h2 class="my-about-name mb-5 --bebas" v-lang="'skills.title'"></h2>
+            <h2 class="mb-5" v-lang="'skills.title'"></h2>
             <div class="d-flex flex-column flex-md-row mb-5">
-                <div class="resume-content mr-auto">
-                    <div class="subheading mb-3 --bebas" v-lang="'skills.programs'"></div>
+                <div class="mr-auto">
+                    <div class="subheading mb-3" v-lang="'skills.programs'"></div>
                     <ul class="list-inline list-icons">
                         <li class="list-inline-item" v-b-tooltip.hover title="Adobe Illustrator"><span
                                 class="skills-icon icon-adobeillustrator"></span></li>

@@ -3,9 +3,9 @@
         <div class="my-auto p-5">
             <div class="d-flex flex-column flex-md-row mb-5 justify-content-between">
                 <div class="my-info">
-                    <h1 class="my-about-name mb-0">
+                    <h1 class="mb-0">
                         <span v-lang="'about.name'"></span>
-                        <span v-lang="'about.surname'" class="--my-color"></span>
+                        <span v-lang="'about.surname'"></span>
                     </h1>
                     <div class="subheading mb-5 uppercase">
                         <a class="my-contact" href="mailto:name@email.com" v-lang="'about.mail'"></a>

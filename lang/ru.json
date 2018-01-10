@@ -5,10 +5,9 @@
     "about": "Обо мне",
     "experience": "Опыт работы",
     "education": "Образование",
-    "contact": "Контакты",
     "skills": "Навыки",
     "interests": "Интересы",
-    "certifications": "Сертификаты"
+    "portfolio": "Портфолио"
   },
   "about": {
     "name": "Юлиана",
@@ -59,5 +58,8 @@
   "skills": {
     "title": "Навыки",
     "programs": "Программы"
+  },
+  "portfolio": {
+    "title": "Портфолио"
   }
 }

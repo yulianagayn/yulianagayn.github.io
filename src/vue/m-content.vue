@@ -7,6 +7,7 @@
         <m-section-education></m-section-education>
         <m-section-skills></m-section-skills>
         <m-section-interests></m-section-interests>
+        <m-section-portfolio></m-section-portfolio>
     </div>
 </template>
 
@@ -17,9 +18,11 @@
     import MSectionEducation from "./m-section-education.vue";
     import MSectionExperience from "./m-section-experience.vue";
     import MSectionInterests from "./m-section-interests.vue";
+    import MSectionPortfolio from "./m-section-portfolio.vue";
 
     export default {
         components: {
+            MSectionPortfolio,
             MSectionInterests,
             MSectionExperience,
             MSectionEducation,

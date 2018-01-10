@@ -1,9 +1,9 @@
 <template>
     <section id="experience" class="d-flex mb-5">
         <div class="my-auto p-5">
-            <h2 class="my-about-name mb-5" v-lang="'experience.title'"></h2>
+            <h2 class="mb-5" v-lang="'experience.title'"></h2>
             <div class="d-flex flex-column flex-md-row mb-5">
-                <div class="resume-content mr-auto">
+                <div class="mr-auto">
                     <h3 class="mb-0" v-lang="'experience.pb.prof'"></h3>
                     <div class="subheading mb-3" v-lang="'experience.pb.name'"></div>
                     <ul class="subheading my-exp">
@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="d-flex flex-column flex-md-row mb-5">
-                <div class="resume-content mr-auto">
+                <div class="mr-auto">
                     <h3 class="mb-0" v-lang="'experience.it20.prof'"></h3>
                     <div class="subheading mb-3" v-lang="'experience.it20.name'"></div>
                     <ul class="subheading my-exp">
