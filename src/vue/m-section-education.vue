@@ -1,6 +1,6 @@
 <template>
     <section id="education" class="d-flex">
-        <div class="my-auto p-5">
+        <div class="my-auto p-5 black">
             <h2 class="mb-5" v-lang="'education.title'"></h2>
             <div class="d-flex flex-column flex-md-row mb-5">
                 <div class="mr-auto">

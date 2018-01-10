@@ -31,6 +31,9 @@ body {
     width: 100%;
     background-color: rgba(255, 255, 255, .1);
 }
+.my-auto.black {
+    background-color: rgba(0, 0, 0, .5);
+}
 
 .subheading {
     color: #999999;
