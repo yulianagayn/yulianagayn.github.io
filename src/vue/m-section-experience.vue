@@ -22,16 +22,6 @@
                     <span v-lang="'experience.it20.time'"></span>
                 </div>
             </div>
-            <div class="d-flex flex-column flex-md-row mb-5">
-                <div class="resume-content mr-auto">
-                    <h3 class="mb-0" v-lang="'experience.fr.prof'"></h3>
-                    <div class="subheading mb-3" v-lang="'experience.fr.name'"></div>
-                    <p class="subheading" v-lang="'experience.fr.text'"></p>
-                </div>
-                <div class="my-date text-md-right">
-                    <span v-lang="'experience.fr.time'"></span>
-                </div>
-            </div>
         </div>
     </section>
 </template>
