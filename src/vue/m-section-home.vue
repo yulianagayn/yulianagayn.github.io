@@ -1,7 +1,5 @@
 <template>
-    <section id="home">
-        <div class="wrapper"></div>
-    </section>
+    <section id="home"></section>
 </template>
 
 <script>

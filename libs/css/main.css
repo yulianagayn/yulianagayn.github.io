@@ -24,6 +24,7 @@ body {
     background-color: #000000;
     color: #ffffff;
     font-family: Acrobat;
+    font-size: 1.37rem;
 }
 
 .my-auto {
@@ -40,6 +41,20 @@ h1 {
     font-family: Bebas;
     font-size: 7.1rem;
     text-transform: uppercase;
+}
+
+h2 {
+    font-family: Bebas;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: Bebas;
+    text-transform: uppercase;
+    font-size: 1.75rem;
 }
 
 section .wrapper::after {
