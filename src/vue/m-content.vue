@@ -5,23 +5,25 @@
         <m-section-experience></m-section-experience>
         <section id="logo2"></section>
         <m-section-education></m-section-education>
-        <m-section-contact></m-section-contact>
-        <section id="logo3"></section>
+        <m-section-skills></m-section-skills>
+        <m-section-interests></m-section-interests>
     </div>
 </template>
 
 <script>
     import MSectionHome from "./m-section-home.vue";
     import MSectionAbout from "./m-section-about.vue";
-    import MSectionContact from "./m-section-contact.vue";
+    import MSectionSkills from "./m-section-skills.vue";
     import MSectionEducation from "./m-section-education.vue";
     import MSectionExperience from "./m-section-experience.vue";
+    import MSectionInterests from "./m-section-interests.vue";
 
     export default {
         components: {
+            MSectionInterests,
             MSectionExperience,
             MSectionEducation,
-            MSectionContact,
+            MSectionSkills,
             MSectionAbout,
             MSectionHome
         },
@@ -37,9 +39,6 @@
         }
         &#logo2 {
             background-image: url("/images/s2.png");
-        }
-        &#logo3 {
-            background-image: url("/images/s3.png");
         }
     }
 </style>

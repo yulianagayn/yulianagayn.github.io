@@ -27,11 +27,12 @@
                 <a href="https://t.me/DreamerEly" target="_blank" class="my-link" v-b-tooltip.hover
                    title="Telegram"><span
                         class="icon-telegram p-2"></span></a>
-                <a href="viber://chat?number=+380990757619" target="_blank" class="my-link" v-b-tooltip.hover
+                <a href="viber://chat?number=+79787772846" target="_blank" class="my-link" v-b-tooltip.hover
                    title="Viber"><span
                         class="icon-viber p-2"></span></a>
-                <a href="skype:g_juliana_?call" target="_blank" class="my-link" v-b-tooltip.hover title="Skype"><span
-                        class="icon-skype p-2"></span></a>
+                <a href="https://api.whatsapp.com/send?phone=79787772846" target="_blank" class="my-link"
+                   v-b-tooltip.hover title="Whatsapp"><span
+                        class="icon-whatsapp p-2"></span></a>
                 <a href="https://www.instagram.com/julianagayun/" target="_blank" class="my-link" v-b-tooltip.hover
                    title="Instagram"><span
                         class="icon-instagram p-2"></span></a>
