@@ -1,5 +1,5 @@
 <template>
-    <section id="education" class="d-flex mb-5">
+    <section id="education" class="d-flex">
         <div class="my-auto p-5">
             <h2 class="mb-5" v-lang="'education.title'"></h2>
             <div class="d-flex flex-column flex-md-row mb-5">

@@ -1,5 +1,5 @@
 <template>
-    <section id="skills" class="d-flex mb-5">
+    <section id="skills" class="d-flex">
         <div class="my-auto p-5">
             <h2 class="my-about-name mb-5 --bebas" v-lang="'skills.title'"></h2>
             <div class="d-flex flex-column flex-md-row mb-5">

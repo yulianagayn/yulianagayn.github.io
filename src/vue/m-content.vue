@@ -40,5 +40,14 @@
         &#logo2 {
             background-image: url("/images/s2.png");
         }
+        &#education {
+            background-image: url("/images/s3.png");
+        }
+        &#skills {
+            background-image: url("/images/s3.png");
+        }
+        &#interests {
+            background-image: url("/images/s3.png");
+        }
     }
 </style>
