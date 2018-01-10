@@ -28,8 +28,8 @@
     <script type="text/javascript">
         $(function () {
             var viewer = ImageViewer();
-            $(document).on('show:image:full', function (event, src) {
-                viewer.show(src);
+            $(document).on('show:image:full', function (event, data) {
+                viewer.show(data.min, data.src);
             });
         });
     </script>

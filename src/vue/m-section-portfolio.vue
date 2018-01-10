@@ -6,7 +6,7 @@
                 <div class="mr-auto">
                     <ul class="list-inline">
                         <li class="list-inline-item my-img mb-2" v-for="image, index in images">
-                            <img v-bind:src="path+image" v-on:click="openGallery(index)"
+                            <img v-bind:src="path+image+'-min.png'" v-on:click="openGallery(index)"
                                  v-b-tooltip.hover title="click to zoom">
                         </li>
                     </ul>
@@ -23,13 +23,16 @@
             return {
                 path: '/images/gallery/',
                 images: [
-                    'pb-portall.png', 'pb-p1.png', 'pb-p2.png', 'pb-web.png', 'rso.png', 'artic.png', 'pb-p3.png', 'pb-rup.png'
+                    'pb-portall', 'pb-p1', 'pb-p2', 'pb-web', 'rso', 'artic', 'pb-p3', 'pb-rup'
                 ]
             }
         },
         methods: {
             openGallery(index) {
-                $(document).trigger('show:image:full', this.path + this.images[index]);
+                $(document).trigger('show:image:full', {
+                    src: this.path + this.images[index] + '.png',
+                    min: this.path + this.images[index] + '-min.png'
+                });
             }
         }
     }
