@@ -14,8 +14,6 @@
                                 class="skills-icon icon-adobeindesign"></span></li>
                         <li class="list-inline-item" v-b-tooltip.hover title="Adobe Acrobat"><span
                                 class="skills-icon icon-adobeacrobatreader"></span></li>
-                        <li class="list-inline-item" v-b-tooltip.hover title="Corel Draw"><span
-                                class="skills-icon icon-cdr"></span></li>
                     </ul>
                 </div>
             </div>
