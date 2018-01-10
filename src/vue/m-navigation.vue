@@ -8,9 +8,9 @@
         <b-collapse is-nav id="nav_collapse">
             <b-nav v-bind:vertical="true">
                 <b-nav-item href="#home">home</b-nav-item>
-                <b-nav-item href="#contact">contact</b-nav-item>
                 <b-nav-item href="#about">about</b-nav-item>
                 <b-nav-item href="#education">education</b-nav-item>
+                <b-nav-item href="#contact">contact</b-nav-item>
             </b-nav>
         </b-collapse>
     </b-navbar>

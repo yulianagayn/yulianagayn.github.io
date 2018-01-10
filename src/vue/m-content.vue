@@ -1,10 +1,10 @@
 <template>
     <div class="sections">
         <m-section-home></m-section-home>
-        <m-section-contact></m-section-contact>
-        <section id="logo2"></section>
         <m-section-about></m-section-about>
+        <section id="logo2"></section>
         <m-section-education></m-section-education>
+        <m-section-contact></m-section-contact>
     </div>
 </template>
 
