@@ -25,5 +25,6 @@
     "vue": "^2.5.13",
     "vueify": "^9.4.1"
   },
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "dependencies": {}
 }

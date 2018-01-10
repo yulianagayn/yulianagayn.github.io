@@ -4,7 +4,12 @@
             <h2 class="mb-5" v-lang="'portfolio.title'"></h2>
             <div class="d-flex flex-column flex-md-row mb-5">
                 <div class="mr-auto">
-                    
+                    <ul class="list-inline">
+                        <li class="list-inline-item my-img mb-2" v-for="image, index in images">
+                            <img v-bind:src="path+image" v-on:click="openGallery(index)"
+                                 v-b-tooltip.hover title="click to zoom">
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -13,10 +18,31 @@
 
 <script>
     export default {
-        name: "m-section-portfolio"
+        name: "m-section-portfolio",
+        data() {
+            return {
+                path: '/images/gallery/',
+                images: [
+                    'pb-portall.png', 'pb-p1.png', 'pb-p2.png', 'pb-web.png', 'rso.png', 'artic.png', 'pb-p3.png', 'pb-rup.png'
+                ]
+            }
+        },
+        methods: {
+            openGallery(index) {
+                $(document).trigger('show:image:full', this.path + this.images[index]);
+            }
+        }
     }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+    .my-img {
+        max-width: 10rem;
+        overflow: hidden;
+        vertical-align: top;
+        img {
+            width: 100%;
+            cursor: pointer;
+        }
+    }
 </style>

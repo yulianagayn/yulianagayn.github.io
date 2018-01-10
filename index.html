@@ -13,15 +13,25 @@
     <script src="./libs/js/polyfill.min.js"></script>
     <script src="./libs/js/bootstrap-vue.js"></script>
     <script src="./libs/js/lodash.js"></script>
+    <script src="./libs/js/imageviewer.min.js"></script>
     <link rel="stylesheet" href="./libs/css/bootstrap.min.css">
     <link rel="stylesheet" href="./libs/css/bootstrap-vue.css">
     <link rel="stylesheet" href="./libs/css/iconmoon.css">
     <link rel="stylesheet" href="./libs/css/main.css">
+    <link rel="stylesheet" href="./libs/css/imageviewer.css">
 </head>
 <body id="spy">
     <div id="app">
         <m-application v-bind:current="current"></m-application>
     </div>
     <script src="./dist/bundle.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var viewer = ImageViewer();
+            $(document).on('show:image:full', function (event, src) {
+                viewer.show(src);
+            });
+        });
+    </script>
 </body>
 </html>
