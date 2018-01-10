@@ -6,7 +6,13 @@
                 <div class="resume-content mr-auto">
                     <h3 class="mb-0" v-lang="'experience.pb.prof'"></h3>
                     <div class="subheading mb-3" v-lang="'experience.pb.name'"></div>
-                    <p class="subheading" v-lang="'experience.pb.text'"></p>
+                    <ul class="subheading my-exp">
+                        <li class="list-item" v-lang="'experience.pb.text.1'"></li>
+                        <li class="list-item" v-lang="'experience.pb.text.2'"></li>
+                        <li class="list-item" v-lang="'experience.pb.text.3'"></li>
+                        <li class="list-item" v-lang="'experience.pb.text.4'"></li>
+                        <li class="list-item" v-lang="'experience.pb.text.5'"></li>
+                    </ul>
                 </div>
                 <div class="my-date text-md-right">
                     <span v-lang="'experience.pb.time'"></span>
@@ -16,7 +22,13 @@
                 <div class="resume-content mr-auto">
                     <h3 class="mb-0" v-lang="'experience.it20.prof'"></h3>
                     <div class="subheading mb-3" v-lang="'experience.it20.name'"></div>
-                    <p class="subheading" v-lang="'experience.it20.text'"></p>
+                    <ul class="subheading my-exp">
+                        <li class="list-item" v-lang="'experience.it20.text.1'"></li>
+                        <li class="list-item" v-lang="'experience.it20.text.2'"></li>
+                        <li class="list-item" v-lang="'experience.it20.text.3'"></li>
+                        <li class="list-item" v-lang="'experience.it20.text.4'"></li>
+                        <li class="list-item" v-lang="'experience.it20.text.5'"></li>
+                    </ul>
                 </div>
                 <div class="my-date text-md-right">
                     <span v-lang="'experience.it20.time'"></span>
@@ -33,6 +45,9 @@
 </script>
 
 <style lang="scss" scoped>
+    .my-exp {
+       list-style: square outside;
+    }
     .my-date {
         min-width: 18rem;
         font-weight: 500;
