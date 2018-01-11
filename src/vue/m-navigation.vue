@@ -1,5 +1,5 @@
 <template>
-    <b-navbar fixed="top" toggleable="md" type="dark" variant="info" v-b-scrollspy:spy
+    <b-navbar fixed="top" toggleable="lg" type="dark" variant="info" v-b-scrollspy:spy
               v-bind:class="['left','my-nav']">
         <b-navbar-brand href="#" class="mt-lg-5 mr-0">
             <span class="d-block d-lg-none" v-lang="'menu.portfolio'"></span>
