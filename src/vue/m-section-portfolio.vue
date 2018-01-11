@@ -4,8 +4,8 @@
             <h2 class="mb-5" v-lang="'portfolio.title'"></h2>
             <div class="d-flex flex-column flex-md-row">
                 <div class="mr-auto">
-                    <div class="row">
-                        <div class=" my-img mb-4 col-md-4" v-for="image, index in images">
+                    <div class="d-flex flex-wrap">
+                        <div class="my-img pr-1 pt-1" v-for="image, index in images">
                             <img v-bind:src="path+image+'-min.png'" v-on:click="openGallery(index)"
                                  v-b-tooltip.hover title="click to zoom">
                         </div>
@@ -40,6 +40,8 @@
 
 <style lang="scss" scoped>
     .my-img {
+        flex-grow: 1;
+        width: 33%;
         vertical-align: top;
         max-height: 30rem;
         overflow: hidden;
