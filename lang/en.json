@@ -1,1 +1,65 @@
-{}
+{
+  "title": "Designer's Resume",
+  "menu": {
+    "resume": "Resume",
+    "about": "About me",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "interests": "Interests",
+    "portfolio": "Portfolio"
+  },
+  "about": {
+    "name": "Iuliana",
+    "surname": "Gaun",
+    "mail": "iuliana.disigner@gmail.com",
+    "location": "Ukraine · Kramatorsk",
+    "information": "I have been engaged in graphic design since 2007. I regularly improve my skills and follow new trends. I try to keep abreast of new products in the field of advertising, design and a little art. There is an experience of creating web interfaces and services for business automation. In addition to design, I'm interested in psychology, literature on self-development and fiction. <br> Inspired by: music, yoga, zenart. <br> My hobby is spiritual self-development in society. So I write a book and articles that change and expand the mind. <br> I took part in social projects as one of the organizers of the community, created to unite initiative groups and like-minded people who are trying to create a world of kindness, mutual assistance and support. Organized and conducted a series of team quest games \"Relay race\". Support was also provided for charitable events to raise funds and help special children."
+  },
+  "experience": {
+    "title": "Experience",
+    "pb": {
+      "prof": "middle graphic designer, web designer",
+      "name": "Prostoy Business, Moscow",
+      "text": {
+        "1": "Design of websites and portals",
+        "2": "Interface design",
+        "3": "Design of advertising and marketing materials",
+        "4": "Design and presentation design, infographics",
+        "5": "Training and coordination of the work of junior specialists, counseling, distribution of tasks"
+      },
+      "time": "October 2011 - current time"
+    },
+    "it20": {
+      "prof": "senior graphic designer, Head of Design Department",
+      "name": "IT 2.0, Kramatorsk",
+      "text": {
+        "1": "Design of websites and portals (on TK and without it)",
+        "2": "Design of advertising materials and printing",
+        "3": "Design and presentation design",
+        "4": "Training and coordination of the work of junior specialists, counseling, distribution of tasks",
+        "5": "Organization and conduct of seminars on the exchange of experience with colleagues"
+      },
+      "time": "October 2011 - September 2014"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "mntu": {
+      "title": "International Science and Technology University",
+      "special": "Degree in economics",
+      "time": "2007 year"
+    }
+  },
+  "interests": {
+    "title": "Interests",
+    "text": "My main occupation is web design and graphics <br> My hobby is spiritual self-development in society <br> So I write a book and articles that change and expand the consciousness"
+  },
+  "skills": {
+    "title": "Skills",
+    "programs": "Programs"
+  },
+  "portfolio": {
+    "title": "Portfolio"
+  }
+}

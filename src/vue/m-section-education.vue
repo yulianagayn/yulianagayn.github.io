@@ -11,6 +11,18 @@
                     <span v-lang="'education.mntu.time'"></span>
                 </div>
             </div>
+            <div class="d-flex flex-column flex-md-row mb-5">
+                <div class="mr-auto">
+                    <h3 class="mb-0" v-lang="'education.additional.title'"></h3>
+                    <ul class="subheading my-exp">
+                        <li class="list-item" v-lang="'education.additional.1'"></li>
+                        <li class="list-item" v-lang="'education.additional.2'"></li>
+                        <li class="list-item" v-lang="'education.additional.3'"></li>
+                        <li class="list-item" v-lang="'education.additional.4'"></li>
+                        <li class="list-item" v-lang="'education.additional.5'"></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 </template>
@@ -21,6 +33,8 @@
     }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+    .my-exp {
+        list-style: square outside;
+    }
 </style>
