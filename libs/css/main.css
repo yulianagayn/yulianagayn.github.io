@@ -72,11 +72,19 @@ section .wrapper::after {
     padding: 60% 0;
 }
 
-section {
+.bg-cover {
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: left center;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.bg-fixed {
     background-attachment: fixed;
+}
+
+section {
+    background-size: cover;
 }
 
 .my-nav {

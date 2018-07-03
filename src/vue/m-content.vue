@@ -1,13 +1,13 @@
 <template>
     <div class="sections">
-        <m-section-home></m-section-home>
-        <m-section-about></m-section-about>
-        <m-section-experience></m-section-experience>
+        <m-section-home class="bg-cover bg-fixed"></m-section-home>
+        <m-section-about class="bg-cover bg-fixed"></m-section-about>
+        <m-section-experience class="bg-cover bg-fixed"></m-section-experience>
         <section id="logo2"></section>
-        <m-section-education></m-section-education>
-        <m-section-skills></m-section-skills>
-        <m-section-interests></m-section-interests>
-        <m-section-portfolio></m-section-portfolio>
+        <m-section-education class="bg-cover bg-fixed"></m-section-education>
+        <m-section-skills class="bg-cover bg-fixed"></m-section-skills>
+        <m-section-interests class="bg-cover bg-fixed"></m-section-interests>
+        <m-section-portfolio class="bg-cover bg-fixed"></m-section-portfolio>
     </div>
 </template>
 
